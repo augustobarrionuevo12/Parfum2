@@ -1,0 +1,45 @@
+/* index.css */
+.fondoPágina {
+  background-image: url("fondoFragancias.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.imagenPrincipalBanner {
+  background-image: url("images/imagenPrincipal.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+}
+
+.ofertasTitulo {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+body, html {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
